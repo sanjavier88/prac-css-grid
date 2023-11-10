@@ -1,0 +1,45 @@
+.why{
+  block-size: 850px;
+  background: var(--black);
+  color: var(--white);
+}
+
+.why-cabecera {
+  font: var(--headline2);
+  margin-block-end: 100px;
+  margin-block-start: 207px;
+}
+
+.why-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline-start: 30px;
+}
+
+.why-parragra {
+  /* border: 1px solid red; */
+  color: var(--white);
+  font: var( --body1-regular);
+  margin-block-end: 200px; 
+}
+
+.slider {
+  display: flex;
+  border-radius: 15px;
+  background: var(--white);
+  block-size: 30px;
+  inline-size: 1080px;
+  margin-block-end: 2000px;
+  
+}
+
+.slider button {
+ 
+  background: green;
+  inline-size: 70%;
+  block-size: 100%;
+  border-radius: 15px;
+  border: none;
+ 
+}

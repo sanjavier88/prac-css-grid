@@ -1,0 +1,37 @@
+.footer {
+    background: var(--black);
+    block-size: 100%;
+    display: flex;
+    gap: 128px;
+}
+  
+.footer-primero {   
+    color: var(--white);
+    margin-inline-start: 64px;
+}
+  
+.footer p {
+    color: var(--grey);
+    font: var(--body1-regular);
+    margin: 0;
+}
+
+.footer .image {
+    margin-block-start: 24px;
+}
+
+.footer span {
+    font: var(--caption);
+    color: var(--grey);
+   
+}
+ 
+.footer h2 {
+    font: var(--body2-bold);
+    margin-block-end: 0;
+}
+.footer h3 {
+    color: var(--white);
+    font: var(--button);
+    margin: 0;
+}

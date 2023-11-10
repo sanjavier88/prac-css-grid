@@ -1,0 +1,56 @@
+.press {
+  background-color: var(--white);
+  block-size: 1200px;
+  grid-row-start: 2;
+  /* margin-block-start: -71px; */
+}
+
+.press-content {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+}
+
+.press-logo {
+
+  display: flex;
+  gap: 8.5px;
+  inline-size: 563px;
+  margin-inline-start: 30px;
+  margin-block-start: 44px;
+  margin-block-end: 128px;
+}
+
+.press-logo img {
+  /* border: 1px solid red; */
+  inline-size: 100%;
+}
+
+.press-image {
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  block-size: 496px;
+  inline-size: 1100px;
+  margin-inline-start: 30px;
+  margin-block-end: 124px;
+}
+
+.press-image img {
+  inline-size: 100%;
+}
+
+.press-cabecera {
+  /* border: 1px solid red; */
+  font: var(--headline2);
+  margin-block-end: 24px;
+  margin-inline-start: 30px;
+}
+
+.press-parragra {
+  /* border: 1px solid orange; */
+  font: var(--body1-regular);
+  color: var(--grey);
+  margin-block-end: 124px;
+  margin-inline-start: 30px;
+}

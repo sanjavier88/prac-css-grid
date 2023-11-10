@@ -1,0 +1,37 @@
+.modal {
+  block-size: 300px;
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+}
+
+
+.modal-content {
+  border-radius: 8px;
+  background: var(--white);
+  block-size: 333px;
+  inline-size: 876px;
+  margin-block-start: -10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-block-end: 80px;
+
+}
+
+.modal-title {
+  /* border: 1px solid red; */
+  font: var(--headline2);
+  color: var(--black);
+  margin: 0;
+  margin-block-start: 64px;
+  margin-block-end: 12px;
+}
+
+.modal-parragra {
+  font: var( --body1-regular);
+  color: var(--grey);
+  margin-block-end: 56px;
+}
+
