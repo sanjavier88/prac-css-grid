@@ -54,3 +54,7 @@
   margin-block-end: 124px;
   margin-inline-start: 30px;
 }
+
+.press-phone {
+  display: none;
+}

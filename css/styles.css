@@ -23,7 +23,7 @@ body {
 
 section {
   block-size: 500px;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 :root {
@@ -87,29 +87,23 @@ section {
     grid-row-start: initial;
   }
   .press {
+    background: #ECEEF1;
     grid-area: initial;
     grid-row-start: initial;
-    display: flex;
-    flex-direction: column;
-    /* block-size: 100vh; */
+    block-size: auto;
   }
 
   .press-content {
-    /* border: solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+
   }
 
   .press-logo {
-      /* border: 1px solid red; */
-     
       display: flex;
       flex-direction: column;
-      
-      /* margin-inline: 350px; */
       block-size: 313px;
       inline-size: 146px;
   }
@@ -128,21 +122,57 @@ section {
 
   .press-image img{
     block-size: 100%;
-    
+  }
+
+  .press-parragra {
+    /* border: 1px solid red; */
+    margin-block-end: 0;
   }
  
   .press-content-parragra {
     /* border: 1px solid red; */
     background: #ECEEF1;
     padding-inline: 30px;
+    margin-block-end:64px;
   }
 
+  .press-phone {
+   
+    display: block;
+    block-size: 500px;
+    inline-size: 264px;
+   
+  }
+
+  .press-phone img{
+    block-size: 100%;
+  }
+
+
   .transactions {
+    block-size: auto;
     background-image: none;
     background: #ECEEF1;
   }
   .transactions-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block-start: 64px;
+    margin-block-end: 100px;
     padding-inline: 30px;
+    ;
+  }
+
+  .transactions-phone {
+    display: block;
+    block-size: 500px;
+    inline-size: 264px;
+
+  }
+
+  .transactions-phone img {
+    block-size: 100%;
   }
 
   
@@ -177,9 +207,22 @@ section {
     max-block-size: 100%;
   }
 
-  .why .why-content-items {
-    /* border: 1px solid red; */
-    padding-inline: 30px;
+  .why {
+    block-size: 940px;
+   
+  }
+
+  .why-content{
+   border: 1px solid red;
+  }
+  .why-phone {
+    block-size: 500px;
+    inline-size: 264px;
+    display: block;
+  }
+
+  .why-phone img {
+    block-size: 100%;
   }
   
   .why .slider {

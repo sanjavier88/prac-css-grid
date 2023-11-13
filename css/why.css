@@ -11,6 +11,7 @@
 }
 
 .why-content {
+  border: 1px solid blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,4 +43,8 @@
   border-radius: 15px;
   border: none;
  
+}
+
+.why-phone {
+  display: none;
 }
